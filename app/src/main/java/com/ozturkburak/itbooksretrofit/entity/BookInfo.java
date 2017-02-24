@@ -138,6 +138,6 @@ public class BookInfo implements Serializable{
 
     @Override
     public String toString() {
-        return String.format("%s ",title );
+        return title ;
     }
 }
