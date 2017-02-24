@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="https://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/md_black_1000"
+    >
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Aranacak Kitap"
+        android:text="java"
+        android:id="@+id/MAINACTIVITY_EDITTEXT_TEXT"
+        android:backgroundTint="@color/md_orange_600"
+
+        android:textStyle="italic"
+        android:textColor="@color/md_orange_50"
+        android:textColorHint="@color/md_blue_grey_200"
+        />
+
+    <Button
+        android:id="@+id/MAINACTIVITY_BUTTON_SEARCH"
+        android:onClick="searchButtonClicked"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="SEARCH"
+        android:background="@color/md_orange_800"
+        android:textColor="@color/md_black_1000"
+        android:textColorHighlight="#E6EE9C"
+        />
+
+    <ListView
+        android:id="@+id/MAINACTIVITY_LISTVIEW_LIST"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        >
+
+    </ListView>
+
+</LinearLayout>

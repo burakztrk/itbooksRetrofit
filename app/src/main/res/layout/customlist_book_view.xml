@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/md_black_1000">
+
+    <ImageView
+        android:id="@+id/BOOKVIEW_IMAGE"
+        android:layout_width="80dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/hacking_android"
+        />
+
+    <TextView
+        android:id="@+id/BOOKVIEW_TITLE"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:fontFamily="monospace"
+        android:maxLines="2"
+        android:maxLength="40"
+        android:layout_marginTop="10dp"
+
+        android:text="Hacking Android and Gestures Recognition"
+        android:textAlignment="textStart"
+        android:textColor="@color/md_orange_800"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_alignEnd="@+id/BOOKVIEW_DESC"
+        android:layout_toEndOf="@+id/BOOKVIEW_IMAGE"
+        android:layout_alignStart="@+id/BOOKVIEW_DESC" />
+
+    <TextView
+            android:id="@+id/BOOKVIEW_DESC"
+            android:layout_width="360dp"
+            android:layout_height="50dp"
+            android:text="If you're ready to create web pages more complex than what you If you're ready to create web pages more complex than what you ..."
+            android:textAlignment="textStart"
+            android:textColor="@color/md_orange_50"
+            android:textSize="13sp"
+            android:textStyle="italic"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_alignBottom="@+id/BOOKVIEW_IMAGE"
+        android:layout_toEndOf="@+id/BOOKVIEW_IMAGE" />
+
+</RelativeLayout>
