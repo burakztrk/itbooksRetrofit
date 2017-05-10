@@ -1,5 +1,5 @@
 # itbooksRetrofit
-##IT E-Books Api ile Retrofit kütüphanesi Örneği
+## IT E-Books Api ile Retrofit kütüphanesi Örneği
 
 In this tutorial, we'll make an app that searches the [it-ebooks.info](http://it-ebooks.info/) to search books and display cover images.
 
